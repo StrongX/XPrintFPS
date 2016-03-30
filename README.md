@@ -19,5 +19,8 @@ you also can get the current FPS by XPrintFPS,you can do like this:
 ```
 but you can't use this method to get FPS  synchronize with [[XPrintFPS alloc]init].because ,when XPrintFPS init,it does not get the current FPS,XPrintFPS most run someTime(when the Frame update first return ) to get FPS.
 
+#### A very important point ,I did not verify the correctness of his,If you find that he is wrong, please tell me.
+
+
 XPrintFPS is easy to use,and you can download the demo in github.
 look more in my blog:http://www.StrongX.com
