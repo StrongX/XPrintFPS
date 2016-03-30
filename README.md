@@ -2,6 +2,7 @@
 this is a class to print FPS in iOS
 
 >I have write a class ------XPrintFPS to calculate the FPS in iOS,and you can find it in github:https://github.com/StrongX/XPrintFPS
+
 you can log the FPS in console like this:
 ```
  _printFPS = [[XPrintFPS alloc]init];
