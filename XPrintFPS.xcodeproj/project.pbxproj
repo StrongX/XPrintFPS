@@ -15,6 +15,7 @@
 		2AE691F11CAC3D45007B3C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE691EF1CAC3D45007B3C17 /* LaunchScreen.storyboard */; };
 		2AE691FC1CAC3D45007B3C17 /* XPrintFPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE691FB1CAC3D45007B3C17 /* XPrintFPSTests.m */; };
 		2AE692071CAC3D45007B3C17 /* XPrintFPSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE692061CAC3D45007B3C17 /* XPrintFPSUITests.m */; };
+		2AE692171CAC3D5D007B3C17 /* XPrintFPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE692161CAC3D5D007B3C17 /* XPrintFPS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2AE692021CAC3D45007B3C17 /* XPrintFPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPrintFPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE692061CAC3D45007B3C17 /* XPrintFPSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPrintFPSUITests.m; sourceTree = "<group>"; };
 		2AE692081CAC3D45007B3C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE692151CAC3D5D007B3C17 /* XPrintFPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPrintFPS.h; sourceTree = "<group>"; };
+		2AE692161CAC3D5D007B3C17 /* XPrintFPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPrintFPS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		2AE691E01CAC3D45007B3C17 /* XPrintFPS */ = {
 			isa = PBXGroup;
 			children = (
+				2AE692141CAC3D4C007B3C17 /* XPrintFPS */,
 				2AE691E41CAC3D45007B3C17 /* AppDelegate.h */,
 				2AE691E51CAC3D45007B3C17 /* AppDelegate.m */,
 				2AE691E71CAC3D45007B3C17 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				2AE692081CAC3D45007B3C17 /* Info.plist */,
 			);
 			path = XPrintFPSUITests;
+			sourceTree = "<group>";
+		};
+		2AE692141CAC3D4C007B3C17 /* XPrintFPS */ = {
+			isa = PBXGroup;
+			children = (
+				2AE692151CAC3D5D007B3C17 /* XPrintFPS.h */,
+				2AE692161CAC3D5D007B3C17 /* XPrintFPS.m */,
+			);
+			name = XPrintFPS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE692171CAC3D5D007B3C17 /* XPrintFPS.m in Sources */,
 				2AE691E91CAC3D45007B3C17 /* ViewController.m in Sources */,
 				2AE691E61CAC3D45007B3C17 /* AppDelegate.m in Sources */,
 				2AE691E31CAC3D45007B3C17 /* main.m in Sources */,
